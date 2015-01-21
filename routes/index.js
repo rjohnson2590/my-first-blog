@@ -1,3 +1,4 @@
+
 var express = require('express');
 var router = express.Router();
 
@@ -36,10 +37,8 @@ router.param('post_name', function(request, response, next, post_name){
     });
 });
 
-router.get('/post/:post_name', function(request, response) {
+router.get('/posts/:post_name', function(request, response) {
     response.render('post', {post: request.post});
 });
-
-
 
 module.exports = router;
