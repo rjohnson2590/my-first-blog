@@ -10,6 +10,7 @@ router.get('/pay', function(req, res) {
   res.render('pay', {title: "Where's my money, honey?"});
 });
 
+//////////////////////////////////////
 // router.get('/post1', function(req, res) {
 //   res.render('post1', {title: "funny"});
 // });
@@ -21,8 +22,8 @@ router.get('/pay', function(req, res) {
 // router.get('/post3', function(req, res) {
 //   res.render('post3', {title: "considerate"});
 // });
-
 //////////////////////////////////////
+
 var posts = require('./posts');
 
 router.param('post_name', function(request, response, next, post_name){
