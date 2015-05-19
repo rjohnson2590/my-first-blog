@@ -109,7 +109,7 @@
 
 	makeLabel.innerHTML=text;
 
-	makeInput.setAttribute("class", verification)
+	// makeInput.setAttribute("class", verification)
 
 	makeInput.setAttribute("type", "text")
 
@@ -176,14 +176,17 @@
 
 	function verifyField(event){
 		event.preventDefault();
-		console.log("hello")
-		if(document.getElementsByTagName("input").value=== null || makeForm.value=== ""){
+		for(var i=0; i<6;i++){
+		var ins=makeForm.getElementsByTagName("input")
+		if(ins[i].value=== null || ins[i].value=== ""){
 			alert("Those are not vaild inputs, please refresh and try again")
+			console.log("hello")
 
+			}
 		}
-
 	}
 	
+
 
 })();
 
