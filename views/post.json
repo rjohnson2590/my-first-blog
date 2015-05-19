@@ -1,0 +1,22 @@
+{
+    "1":{
+        "title":"First post",
+        "body": "First post thing"
+    },
+    "2":{
+        "title":"My second post",
+        "body": "I have more to say!!!!!"
+    },
+    "3":{
+    	"title":"My third post",
+        "body": "IS thing?"
+    },
+    "index":{
+    	"title":"Index",
+        "body": "Imma list stuff",
+        "list":"Home James!",
+        "list1": "First blog post",
+        "list2": "Second blog post",
+        "list3": "Third blog post"
+    }
+}
